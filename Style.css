@@ -1,0 +1,437 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: sans-serif;
+}
+.hero {
+  width: 100vw;
+
+  background-repeat: none;
+  background-size: cover;
+
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), black),
+    url("./Images/1c8032975647515c919c1e4b30138726.jpg");
+  padding-bottom: 63px;
+}
+.navbar {
+  display: flex;
+  color: white;
+  padding: 25px;
+  justify-content: space-between;
+}
+
+.navbar-start {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.box {
+  width: 19px;
+  height: 3px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.box-small {
+  width: 11px;
+  height: 3px;
+  border-radius: 5px;
+  background-color: white;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+.navbar img {
+  width: 134px;
+  height: 18px;
+}
+
+.linebox {
+  width: 1px;
+  height: 18px;
+  background-color: white;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+}
+
+.input-con {
+  display: flex;
+  align-items: center;
+}
+
+.navbar input {
+  color: white;
+  border: none;
+  background: none;
+  outline: none;
+  margin-left: 10px;
+}
+
+.navbar-end {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+#Daraa {
+  color: gray;
+}
+
+.navbar-end button {
+  background-color: rgba(255, 255, 255, 0.4);
+  outline: none;
+  border: none;
+  color: white;
+  border-radius: 15px;
+  padding: 8px 18px;
+  border-color: none;
+}
+.head-container {
+  width: 1116px;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 85px;
+  padding: 0 35px;
+  gap: 61px;
+  align-items: center;
+}
+
+.head-container img {
+  width: 372px;
+  height: 372px;
+  border-radius: 20px;
+  object-fit: cover;
+  grid-row: 1 / span 2;
+}
+
+.uk-grid {
+  color: white;
+  font-size: 26px;
+  font-family: sans-serif;
+  margin-bottom: 54px;
+  font-weight: 900;
+  margin-top: 50px;
+}
+
+.uk-grid .category {
+  margin-top: 30px;
+}
+.head-container .author img {
+  width: 36px;
+  height: 36px;
+}
+
+.head-container .author {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.author-text {
+  color: white;
+  font-size: 12.6px;
+  padding: 3px;
+}
+
+.author-text h6 {
+  font-size: 12.6px;
+}
+
+.blackbox {
+  width: 100%;
+  height: 327px;
+  background-color: black;
+  color: white;
+  position: relative;
+  z-index: 2;
+}
+
+.tile {
+  display: flex;
+  justify-content: space-between;
+  width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 16px;
+}
+
+.chevron {
+  display: flex;
+  gap: 10px;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 20px;
+  padding: 10px 15px;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.hover-pic {
+  display: flex;
+  gap: 30px;
+  /* position: absolute; */
+  bottom: -10%;
+  width: 1300px;
+  padding: 20px;
+  justify-content: center;
+  margin: auto;
+  margin-top: 100px;
+}
+.hover-pic .box {
+  width: 176px;
+  height: 261px;
+  /* display: flex; */
+  gap: 10px;
+  background-size: cover;
+  object-fit: cover;
+  background-position: center;
+  border-radius: 10px;
+  padding: 10px;
+  position: relative;
+  z-index: 3;
+}
+
+.box .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.box .blue-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: blue;
+}
+
+.box .view {
+  display: flex;
+  margin-top: 40px;
+  gap: 20px;
+  font-size: 13px;
+}
+
+.box h6 {
+  font-size: 16px;
+  margin-top: 30px;
+}
+
+.box button {
+  background-color: #0078f6;
+  border-radius: 10px;
+  border: none;
+  margin-top: 15px;
+  color: white;
+  padding: 5px 10px;
+}
+
+.box1 {
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url("./Images/events-mongolia-about-mongolia.jpg");
+}
+
+.box2 {
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url(./Images/FuzFCb4aQAcBb5z.jpg);
+}
+
+.box3 {
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url(./Images/9780712354042F_1250x.webp);
+}
+
+.box4 {
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url(./Images/image.jpeg);
+}
+
+.box5 {
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url(./Images/sp.png);
+}
+
+.whitespace {
+  background-color: #fafafa;
+  border-radius: 20px;
+}
+.this-week {
+  width: 1116px;
+
+  margin: auto;
+  margin-top: 200px;
+}
+
+.part {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 50px;
+}
+
+.part1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: 50px;
+}
+
+.white {
+  width: 739px;
+  height: 183px;
+  background-color: white;
+  margin-top: 20px;
+  border-radius: 10px;
+  display: flex;
+  padding: 28px 65px 20px 51px;
+}
+
+.author {
+  display: flex;
+  color: black;
+}
+.author img {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  grid-row: 1 / span 2;
+}
+
+.white h6 {
+  font-size: 12.6px;
+  color: #0078f6;
+}
+.white h3 {
+  font-size: 21.6px;
+  margin-top: 10px;
+}
+.white img {
+  width: 135px;
+  height: 135px;
+  border-radius: 50%;
+}
+
+.author-text1 {
+  margin-left: 10px;
+}
+
+.author-text1 h6 {
+  font-size: 12.6px;
+  font-weight: 500;
+}
+
+.author-text1 span {
+  font-size: 12.6px;
+  font-weight: 500;
+  color: #888888;
+}
+
+.ungursun7honog {
+  width: 1116px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.ungursun7honog .text {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13.5px;
+  color: #888888;
+  border-bottom: 1px solid #888888;
+
+  padding-bottom: 20px;
+}
+.firstpic {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-template-rows: repeat(3, 150px);
+  gap: 20px;
+  margin-top: 20px;
+}
+.picbox {
+  background-image: url("./Images/apple.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+
+.firstpic .box1 {
+  grid-column: 1 / 2 span;
+  grid-row: 1 / 2 span;
+  background-image: url("./Images/bichih.png");
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.firstpic .box2 {
+  grid-row: 2 / 2 span;
+}
+
+footer {
+  background-color: black;
+  padding: 50px;
+  margin-top: 100px;
+}
+footer img {
+  width: 138px;
+  height: 18px;
+}
+
+.hamtrah {
+  width: 323px;
+  height: 90px;
+  margin-top: 20px;
+  padding: 21px;
+  display: flex;
+  background-color: grey;
+  border-radius: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+footer h5 {
+  color: white;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+footer span {
+  color: #888888;
+  margin-top: 10px;
+  font-size: 12.6px;
+}
+
+footer i {
+  width: 54px;
+  height: 54px;
+  color: white;
+  background-size: cover;
+
+  background-position: center;
+  background-color: black;
+  border-radius: 50%;
+}
