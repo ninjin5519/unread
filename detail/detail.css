@@ -1,0 +1,173 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: sans-serif;
+}
+.navbar {
+  display: flex;
+  background-color: #fff;
+  color: white;
+  padding: 25px;
+  justify-content: space-between;
+  border-bottom: 1px solid #888;
+}
+.navbar-start {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.box {
+  width: 19px;
+  height: 3px;
+  background-color: #888;
+  border-radius: 5px;
+}
+
+.box-small {
+  width: 11px;
+  height: 3px;
+  border-radius: 5px;
+  background-color: #888;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+.navbar img {
+  width: 134px;
+  height: 18px;
+}
+
+.linebox {
+  width: 1px;
+  height: 18px;
+  background-color: #888;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  color: #888;
+}
+
+.input-con {
+  display: flex;
+  align-items: center;
+}
+
+.navbar input {
+  border: none;
+  background: none;
+  outline: none;
+  margin-left: 10px;
+}
+
+.navbar-end {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+#Daraa {
+  color: gray;
+}
+
+.navbar-end button {
+  background-color: #fff;
+  outline: none;
+  border: none;
+  color: black;
+  border-radius: 15px;
+  padding: 8px 18px;
+  border-color: none;
+}
+
+.hero {
+  background-color: rgb(250, 250, 250);
+  padding: 100px;
+}
+.hero .text {
+  font-size: 12.6px;
+  color: #888;
+}
+.hero .toim {
+  color: #3399ff;
+}
+.hero h1 {
+  font-size: 32px;
+  margin-top: 40px;
+}
+.hero .pic {
+  width: 1116px;
+  height: 600px;
+  background-color: white;
+  background-image: url("/unread-clone/Images/this\ week\ 1.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 60px;
+}
+
+.author-title {
+  display: flex;
+  margin-top: 30px;
+  justify-content: space-between;
+}
+.author-text {
+  display: flex;
+  gap: 100px;
+}
+.author {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.author img {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+}
+.authortext span {
+  font-size: 12.6px;
+  color: #888;
+}
+.authortext h6 {
+  font-size: 12.6px;
+  color: black;
+  margin-top: 5px;
+}
+.handalt span {
+  font-size: 14.4px;
+  color: #888;
+}
+
+.handalt i {
+  font-size: 14.4px;
+  margin-top: 5px;
+}
+
+.author-icon {
+  display: flex;
+  gap: 100px;
+  color: blue;
+}
+
+.main-text {
+  width: 535px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.main-text h1 {
+  font-size: 36px;
+  font-weight: 900;
+}
+
+.main-text h6 {
+  font-size: 14.4px;
+  margin-top: 20px;
+}
+
+.main-text p {
+  font-size: 14.4px;
+  font-weight: 500;
+  color: #1c1c1c;
+  margin-top: 20px;
+}
