@@ -88,7 +88,24 @@
   border-radius: 15px;
   padding: 8px 18px;
   border-color: none;
+  align-items: center;
 }
+
+.navbar-end i {
+  font-size: 7px;
+  color: #0078f6;
+  animation: blink 3s linear 0s infinite none;
+}
+
+@keyframes blink {
+  from {
+    opacity: 90%;
+  }
+  to {
+    opacity: 0%;
+  }
+}
+
 .head-container {
   width: 1116px;
   display: grid;
@@ -97,16 +114,21 @@
   margin-right: auto;
   margin-top: 85px;
   padding: 0 35px;
-  gap: 61px;
+  gap: 50px;
   align-items: center;
 }
 
-.head-container img {
+.head-container .img-box {
   width: 372px;
   height: 372px;
   border-radius: 20px;
-  object-fit: cover;
+  background-image: url("./Images/a53bcb8f28f3142b6cb1c051f645c2d7.jpg");
+  background-size: cover;
+  background-position: center;
+
   grid-row: 1 / span 2;
+}
+.head-container .img-box :hover {
 }
 
 .uk-grid {
@@ -118,8 +140,29 @@
   margin-top: 50px;
 }
 
-.uk-grid .category {
+.uk-grid h5 {
+  color: #0078f6;
+  font-size: 14.4px;
+  animation: blink 3s linear 0s infinite none;
+}
+@keyframes blink {
+  from {
+    opacity: 90%;
+  }
+  to {
+    opacity: 0%;
+  }
+}
+
+.uk-grid .h1-effect {
   margin-top: 30px;
+  color: transparent;
+  -webkit-text-stroke: 1px;
+  -webkit-text-stroke-color: white;
+}
+
+.uk-grid .category {
+  margin-top: 10px;
 }
 .head-container .author img {
   width: 36px;
@@ -130,7 +173,6 @@
   display: flex;
   align-items: center;
   gap: 10px;
-  margin-top: 30px;
 }
 
 .author-text {
@@ -141,6 +183,7 @@
 
 .author-text h6 {
   font-size: 12.6px;
+  transition-property: color;
 }
 
 .blackbox {
@@ -173,26 +216,30 @@
 .hover-pic {
   display: flex;
   gap: 30px;
-  /* position: absolute; */
-  bottom: -10%;
-  width: 1300px;
+
   padding: 20px;
   justify-content: center;
   margin: auto;
-  margin-top: 100px;
+  margin-top: 40px;
+  margin-bottom: -100%;
 }
+
 .hover-pic .box {
-  width: 176px;
-  height: 261px;
-  /* display: flex; */
+  width: 276px;
+  height: 400px;
   gap: 10px;
   background-size: cover;
   object-fit: cover;
   background-position: center;
   border-radius: 10px;
-  padding: 10px;
+  padding: 20px;
   position: relative;
   z-index: 3;
+}
+
+.hover-pic .box :hover {
+  width: 300px;
+  height: 424px;
 }
 
 .box .top {
@@ -210,7 +257,7 @@
 
 .box .view {
   display: flex;
-  margin-top: 40px;
+  margin-top: 150px;
   gap: 20px;
   font-size: 13px;
 }
@@ -224,7 +271,7 @@
   background-color: #0078f6;
   border-radius: 10px;
   border: none;
-  margin-top: 15px;
+  margin-top: 70px;
   color: white;
   padding: 5px 10px;
 }
@@ -506,4 +553,9 @@ footer i {
 
 .logo i {
   font-size: 32px;
+}
+
+.white a {
+  color: black;
+  text-decoration: none;
 }
