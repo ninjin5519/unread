@@ -120,15 +120,18 @@
 
 .head-container .img-box {
   width: 372px;
-  height: 372px;
+  height: 300px;
   border-radius: 20px;
   background-image: url("./Images/a53bcb8f28f3142b6cb1c051f645c2d7.jpg");
-  background-size: cover;
+  background-size: 120%;
   background-position: center;
-
   grid-row: 1 / span 2;
+  background-repeat: no-repeat;
+  transition: all ease-in-out 0.5s;
 }
-.head-container .img-box :hover {
+
+.head-container .img-box:hover {
+  background-size: 150%;
 }
 
 .uk-grid {
